@@ -17,6 +17,7 @@ _After:_
 ### 3. Service Audit
 Run: `sudo ss -tulpn`
 Output:
+
 | Netid | State  | Recv-Q | Send-Q | Local Address:Port | Peer Address:Port | Process |
 |------|--------|--------|--------|--------------------|-------------------|---------|
 | udp | UNCONN | 0 | 0 | 127.0.0.54:53 | 0.0.0.0:* | systemd-resolve (pid 645, fd 16) |
