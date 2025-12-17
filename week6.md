@@ -59,6 +59,7 @@
     ```
  
  ### 2. Optimization Analysis
+ 
  **Optimization 1: Swap Tuning**
  * Linux Defaults to a swap of 60. It moves data from fast RAM to slow disk aggressively. This slows down the performance.
  * Lower the value to 10, telling the OS to keep data in RAM as long as possible.
